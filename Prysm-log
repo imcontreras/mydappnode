@@ -1,0 +1,23 @@
+time="2020-12-01 02:17:50" level=warning msg="Running on ETH2 Mainnet" prefix=flags
+time="2020-12-01 02:17:50" level=info msg="Using "max_cover" strategy on attestation aggregation" prefix=flags
+time="2020-12-01 02:17:50" level=info msg="Checking DB" database-path="/data/beaconchaindata" prefix=node
+time="2020-12-01 02:17:50" level=info msg="Deposit contract: 0x00000000" prefix=node
+time="2020-12-01 02:17:50" level=info msg="Waiting for state to be initialized" prefix=initial-sync
+time="2020-12-01 02:17:50" level=info msg="Starting beacon node" prefix=node version="Prysm/v1.0.2/b150acffca3d93e8cf1f404ff7e4602391017186. Built at: 2020-11-30 02:48:11+00:00"
+time="2020-12-01 02:17:50" level=info msg="Waiting to reach the validator deposit threshold to start the beacon chain..." prefix=blockchain
+time="2020-12-01 02:17:50" level=info msg="gRPC server listening on port" address="0.0.0.0:4000" prefix=rpc
+time="2020-12-01 02:17:50" level=warning msg="You are using an insecure gRPC server. If you are running your beacon node and validator on the same machines, you can ignore this message. If you want to know how to enable secure connections, see: https://docs.prylabs.network/docs/prysm-usage/secure-grpc" prefix=rpc
+time="2020-12-01 02:17:50" level=info msg="Starting JSON-HTTP API" address="0.0.0.0:3500" prefix=gateway
+time="2020-12-01 02:17:50" level=error msg="Could not listen to host:port :beacon-chain.prysm.dappnode:8080: listen tcp 172.33.0.4:8080: bind: cannot assign requested address" prefix=prometheus
+time="2020-12-01 02:17:50" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
+time="2020-12-01 02:17:53" level=info msg="New gRPC client connected to beacon node" addr="172.33.0.4:41722" prefix=rpc
+time="2020-12-01 02:18:55" level=info msg="New gRPC client connected to beacon node" addr="127.0.0.1:46924" prefix=rpc
+time="2020-12-01 02:20:02" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
+time="2020-12-01 02:22:08" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
+time="2020-12-01 02:24:14" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
+time="2020-12-01 02:26:20" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
+time="2020-12-01 02:28:26" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
+time="2020-12-01 02:30:32" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
+time="2020-12-01 02:32:38" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
+time="2020-12-01 02:34:44" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
+time="2020-12-01 02:36:50" level=error msg="Could not connect to powchain endpoint" error="could not dial eth1 nodes: eth1 node has not finished syncing yet" prefix=powchain
